@@ -1,0 +1,12 @@
+rakarrack-plus (realtime audio effects processor for JACK)
+
+This project is a merging of original rakarrack (http://rakarrack.sourceforge.net)
+and the program's effects ported to LV2 from (https://github.com/ssj71/rkrlv2).
+In addition there are many bug fixes and enhancements to rakarrack and the LV2s.
+Rakarrack-plus-1.0.0 is the first version under the new name.
+
+This package uses POSIX filesystem capabilities to execute with
+elevated privileges (required for realtime audio processing). This
+may be considered a security/stability risk. Please read
+http://www.slackbuilds.org/caps/ for more information. To disable
+capabilities, pass SETCAP=no to the script.
